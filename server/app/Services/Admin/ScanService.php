@@ -58,7 +58,7 @@ class ScanService extends BaseService
         $where[] = ['stock_id', '=', $param['stock_id']];
 
         return StockCodeModel::where($where)->select(
-            ['id', 'code', 'num', 'create_time']
+            ['id', 'code', 'stock_id', 'num', 'create_time']
         )->get()->toArray();
     }
 

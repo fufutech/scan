@@ -78,7 +78,7 @@ class ScanController extends AbstractController
             return $this->response->success($msg);
         }
 
-        return $this->response->fail('创建批次失败');
+        return $this->response->fail('移除条码失败');
     }
 
 }
