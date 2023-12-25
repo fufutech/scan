@@ -94,7 +94,7 @@ class ScanService extends BaseService
      */
     public function codeDelete($param): array
     {
-        if (empty($param['id'])) {
+        if (empty($param['stock_id'])) {
             throw new ApiException('请填写条码id');
         }
         $num = StockCodeModel::where([
