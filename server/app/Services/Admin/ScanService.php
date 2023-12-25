@@ -117,6 +117,7 @@ class ScanService extends BaseService
         }
 
         return [false, '移除失败'];
+        return [false, '移除失败'];
     }
 
 }
