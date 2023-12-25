@@ -65,4 +65,20 @@ class ScanController extends AbstractController
         return $this->response->fail('创建批次失败');
     }
 
+    /**
+     * @DOC 移除条码
+     * @PostMapping(path="codeDelete")
+     */
+    public function codeDelete(): ResponseInterface
+    {
+        $param = $this->request->all();
+        $this->scanService->setUserData($this->request->UserData);
+        [$res, $msg] = $this->scanService->codeDelete($param);
+        if ($res) {
+            return $this->response->success($msg);
+        }
+
+        return $this->response->fail('创建批次失败');
+    }
+
 }

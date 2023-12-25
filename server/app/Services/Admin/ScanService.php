@@ -86,4 +86,37 @@ class ScanService extends BaseService
         return [false, '新增批次失败'];
     }
 
+    /**
+     * @DOC 移除条码
+     */
+    public function codeDelete($param): array
+    {
+        if (empty($param['id'])) {
+            throw new ApiException('请填写条码id');
+        }
+        $num = StockCodeModel::where([
+            'stock_id' => $param['stock_id'],
+            'code'     => $param['code'],
+        ])->value('num');
+        //如果条码数量大于1就减少1数量
+        if ($num > 1) {
+            $res = StockCodeModel::where([
+                'stock_id' => $param['stock_id'],
+                'code'     => $param['code'],
+            ])->decrement('num');
+        }
+        //如果条码数量小于等于1就直接删除该条码
+        if ($num <= 1) {
+            $res = StockCodeModel::where([
+                'stock_id' => $param['stock_id'],
+                'code'     => $param['code'],
+            ])->delete();
+        }
+        if ($res) {
+            return [true, '移除成功'];
+        }
+
+        return [false, '移除失败'];
+    }
+
 }
