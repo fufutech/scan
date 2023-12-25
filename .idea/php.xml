@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/server/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/config" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/command" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/contract" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/context" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/database" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/crontab" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/devtool" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/db-connection" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/di" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/event" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/engine" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/filesystem" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/exception-handler" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/framework" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/flysystem-oss" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/http-message" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/guzzle" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/ide-helper" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/http-server" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/macroable" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/logger" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/model-listener" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/memory" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/pool" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/paginator" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/redis" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/process" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/testing" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/server" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/utils" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/translation" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/watcher" />
+      <path value="$PROJECT_DIR$/server/vendor/hyperf/validation" />
+      <path value="$PROJECT_DIR$/server/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/server/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/server/vendor/php-di/phpdoc-reader" />
+      <path value="$PROJECT_DIR$/server/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/server/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/server/vendor/swoole/ide-helper" />
+      <path value="$PROJECT_DIR$/server/vendor/laminas/laminas-mime" />
+      <path value="$PROJECT_DIR$/server/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/server/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/server/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/server/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/server/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/server/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/server/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/server/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/server/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/aliyuncs/oss-sdk-php" />
+      <path value="$PROJECT_DIR$/server/vendor/vinchan/message-notify" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/server/vendor/overtrue/flysystem-cos" />
+      <path value="$PROJECT_DIR$/server/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/server/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/server/vendor/overtrue/qcloud-cos-client" />
+      <path value="$PROJECT_DIR$/server/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/server/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/server/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/server/vendor/graham-campbell/result-type" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/server/phpunit.xml" custom_loader_path="$PROJECT_DIR$/server/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

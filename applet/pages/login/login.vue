@@ -2,19 +2,19 @@
 <template>
 	<view class="t-login">
 		<!-- 页面装饰图片 -->
-		<image class="img-a" src="https://zhoukaiwen.com/img/loginImg/2.png"></image>
-		<image class="img-b" src="https://zhoukaiwen.com/img/loginImg/3.png"></image>
+		<image class="img-a" src="../../static/icon/2.png"></image>
+		<image class="img-b" src="../../static/icon/3.png"></image>
 		<!-- 标题 -->
 		<view class="t-b">{{ title }}</view>
 		<view class="t-b2">方便快捷，轻松盘点</view>
 		<form class="cl">
 			<view class="t-a">
-				<image src="https://zhoukaiwen.com/img/loginImg/sj.png"></image>
+				<image src="../../static/icon/sj.png"></image>
 				<view class="line"></view>
-				<input type="number" name="username" placeholder="请输入账号" maxlength="32" v-model="username" />
+				<input type="text" name="username" placeholder="请输入账号" maxlength="32" v-model="username" />
 			</view>
 			<view class="t-a">
-				<image src="https://zhoukaiwen.com/img/loginImg/yz.png"></image>
+				<image src="../../static/icon/yz.png"></image>
 				<view class="line"></view>
 				<input type="password" name="password" maxlength="6" placeholder="请输入密码" v-model="password" />
 			</view>
@@ -62,7 +62,7 @@
 					// 登录成功
 					if (res.data.code === 200) {
 						// 保存用户信息到本地storage或vuex中
-						uni.setStorageSync('UserInfo', res.data.data);
+						uni.setStorageSync('adminToken', res.data.data.adminToken);
 						// 跳转到首页
 						uni.showToast({
 							title: res.data.msg,

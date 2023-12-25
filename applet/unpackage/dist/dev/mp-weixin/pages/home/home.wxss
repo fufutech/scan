@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.demo-uni-row {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #bcd0ea;
+}
+.demo-uni-col {
+  height: 36px;
+  border-radius: 5px;
+}
+.dark_deep {
+  background-color: #99a9bf;
+}
+.dark {
+  background-color: #d3dce6;
+}
+.light {
+  background-color: #e5e9f2;
+}
+.example-body {
+  display: block;
+  padding: 5rpx 10rpx 0;
+  overflow: hidden;
+}
+.top-form {
+  background-color: #dcdcdc;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+

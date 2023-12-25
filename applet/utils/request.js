@@ -13,6 +13,7 @@ const instance = ajax.create({
 instance.interceptors.request.use(
 	config => {
 		// 在发送请求前做些什么
+		config.header.adminToken = uni.getStorageSync('adminToken')
 		return config
 	},
 	error => {

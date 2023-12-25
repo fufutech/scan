@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0f228d56-e1d1-4ec5-a7f7-622cf70f9f45" name="scan万物皆可盘">
+        <fileTransfer rootFolder="/www/wwwroot/scan/server" accessType="SFTP" host="150.158.36.24" port="22" sshConfigId="50873409-8dfc-43d7-bdbc-69feb3bf4c2d" sshConfig="忆旅">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

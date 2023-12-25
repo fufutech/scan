@@ -65,7 +65,8 @@
 			"disableHostCheck": true,
 			"proxy": {
 				"/api": {
-					"target": "https://jua.suyoda.cn/public/index.php?s=", //目标接口域名
+					//"target": "http://scan.fufutech.cn", //目标接口域名
+					"target": "http://127.0.0.1:9511", //目标接口域名
 					"changeOrigin": true, //是否跨域
 					"secure": true, // 设置支持https协议的代理
 					"pathRewrite": {
