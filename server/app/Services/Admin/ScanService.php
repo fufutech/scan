@@ -51,6 +51,9 @@ class ScanService extends BaseService
      */
     public function batchInfo($param): array
     {
+        if (empty($param['stock_id'])) {
+            throw new ApiException('请填写条码id');
+        }
         $where   = [];
         $where[] = ['stock_id', '=', $param['stock_id']];
 
@@ -116,7 +119,6 @@ class ScanService extends BaseService
             return [true, '移除成功'];
         }
 
-        return [false, '移除失败'];
         return [false, '移除失败'];
     }
 
